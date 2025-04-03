@@ -1,0 +1,14 @@
+exercise:--->
+    
+      you have create a custom class calculator with following oppreators:->
+            1. * -->   Addition
+            2. - -->   Substraction
+            3. / -->   divide
+            4. + -->   Addition
+
+            Which throws the following exceptions:->
+
+            1. Invalid exception Eg: 8 & 9.
+            2. Cannot divides by 0  Exceptions
+            3. max Input exceptions if any of the input is greater then 100000
+            4. MAx multiplier reacherd Exceptions:
