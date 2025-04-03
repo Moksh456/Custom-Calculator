@@ -65,7 +65,7 @@ public class Calculator{
         custormcal c = new custormcal();
      //   c.add(8, 9);
         
-
+// if u want to run and method then call and print.
         System.out.println(c.add(120, 130));
     }
 }
