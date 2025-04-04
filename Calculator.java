@@ -1,3 +1,4 @@
+//throwing a invalid input   excetions
 class InvalidIndputException extends Exception{
         public String toString(){
             return "can't add 8 and 9";
@@ -7,12 +8,14 @@ class InvalidIndputException extends Exception{
         }
                     
 }
+// throws a cant devide by zero exceptions in the following code"
 class cannotDevideByzeroException extends Exception{
     @Override
     public String toString(){
         return "can't divide by zero";
     }
 }
+// throws a max input exceptions 
 class maxInputException extends Exception{
     @Override
     public String toString(){
@@ -20,8 +23,9 @@ class maxInputException extends Exception{
     }
 }
 
- 
+// this is our main and returning class 
 class custormcal{
+    // following code for adding the value
     double add(double a, double b) throws InvalidIndputException, maxInputException {
         if (a>100000 || b>100000){
             throw new maxInputException();  
@@ -32,6 +36,7 @@ class custormcal{
         }
 return a+b;
     }
+    // following code for subtract
     double sustract(double a, double b)throws maxInputException{
         if (a>100000 || b>100000){
             throw new maxInputException();  
@@ -39,7 +44,7 @@ return a+b;
         
         return a-b;
             }
-        
+        // following code for dividig
             double divide(double a, double b)throws cannotDevideByzeroException , maxInputException{
                 if (a>100000 || b>100000){
                     throw new maxInputException();  
@@ -50,6 +55,7 @@ return a+b;
                 }
                 return a/b;
                     }
+                    // following code for multplying
                     double multiply(double a, double b)throws maxInputException{
                         if (a>100000 || b>100000){
                             throw new maxInputException();  
